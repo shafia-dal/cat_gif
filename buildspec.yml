@@ -27,4 +27,4 @@ phases:
       - ls -la && cd .. && ls -la
 
 artifacts:
-  files: "imagedefinitions.json"
+  files: imagedefinitions.json
