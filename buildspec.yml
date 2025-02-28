@@ -18,10 +18,7 @@ phases:
     
   build:
     commands:
-      - pwd
-      - ls
-      - ls flask-app
-      - docker build -t $IMAGE_REPO_NAME .
+      - cd flas-app
       - docker tag $IMAGE_REPO_NAME:latest $REPO_URI:$IMAGE_TAG
 
   post_build:
