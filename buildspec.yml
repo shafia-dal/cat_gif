@@ -24,3 +24,6 @@ phases:
   post_build:
     commands:
       - docker push $REPO_URI:$IMAGE_TAG  
+
+  artifacts:
+  files: "**/*"
