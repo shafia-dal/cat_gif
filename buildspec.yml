@@ -5,7 +5,7 @@ env:
     IMAGE_REPO_NAME: "flask-app"
     IMAGE_TAG: "latest"
     AWS_REGION: "ap-south-1"
-    CLUSTER_NAME: "flask-app"
+    CLUSTER_NAME: "falsk-app"
     SERVICE_NAME: "fa-service"
   # parameter-store:
   #   LOGIN_PASSWORD: /CodeBuild/dockerLoginPassword
